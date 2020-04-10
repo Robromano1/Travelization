@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Travelization</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="./dist/main.css" />
+		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+		<link rel='icon' type='img/png' href="assets/images/travel.png"/>
+
+		<!-- d3 -->
+			<script src="https://d3js.org/d3.v5.min.js"></script>
+		<!-- Data -->
+		
+	</head>
+	
+	<body class="all">
+		<!-- <script src="./dist/main.js"></script> -->
+		<div class="parallax-1">
+			<div class="headerWrapper">
+				<h1 class="header">Travelization</h1>
+				<img class="plane" src="./assets/images/travel.png">	
+			</div>
+		</div>
+		<div class="mainContainer">
+			<div class="blurb">With the rise in technology, and transportation,
+				traveling has become increasingly popular throughout the years. 
+				More and more people are traveling the world, seeing the sights, and
+				living their best life. Travel has become a lifestyle, with travel instagram 
+				influencers, travel blogs, and travel vlogs. Below are the 
+				top ten most visited countries in the world in the year 2019.
+			</div>
+		</div>
+		<div class="parallax-2">
+			<h3 class="barTitle">Most Visited Countries</h3>
+		</div>
+		<div class="barGraph" id="container">
+			<svg id="countryGraph"></svg>
+		</div>
+		<div class="parallax-3">
+			<h3 class="barTitle">Least Visited Countries</h3>
+		</div>
+		<div class="barGraph" id="container">
+			<svg id="leastCountries"></svg>
+		</div>
+		<div class=funFact>
+			
+		</div>
+		<div class="footerContainer">
+			<div class="myImage">
+				<img src="assets/images/cold_december.jpeg"/>
+			</div>
+			<div class="created">
+				<span>Created By:</span>
+			</div>
+			<div class="name">
+				<span>Robert Romano</span>
+			</div>
+			<div class="about-me">
+				<span>Software engineer, proficient in React, Redux, Ruby, Rails, JavaScript</span>
+			</div>
+			<div class="onlinePresence">
+				<ul class="socialIcons">
+					<li class="github"><a href="https://github.com/robromano1">GitHub</a></li>
+					<li class="linkedIn"><a href="https://www.linkedin.com/in/robert-romano/">LinkedIn</a></li>
+					<li class="angelList"></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- <h1 class="countryListContainer">
+			<ul class="countryList">
+				<li class="countryListItem">Country 1</li>
+				<li class="countryListItem">Country 2</li>
+				<li class="countryListItem">Country 3</li>
+				<li class="countryListItem">Country 4</li>
+			</ul>
+		</h1> -->
+		<!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+		<script src="./dist/main.js"></script>
+		<script src="./lib/countries.js" charset="utf-8"></script>
+		<script src="./lib/leastCountries.js" charset="utf-8"></script>
+	</body>
+	
+	</html>
